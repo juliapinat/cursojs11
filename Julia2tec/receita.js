@@ -12,4 +12,6 @@ console.log("📌 Receita de Bolo Simples");
 console.log("Ingredientes:");
 
 //exibindo cada ingrediente da lista
-ingredientes.forEach((item,index))
+ingredientes.forEach((item,index) => {
+console.log(`${index + 1} - ${item}`);
+});
